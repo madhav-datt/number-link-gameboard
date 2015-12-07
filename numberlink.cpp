@@ -1,7 +1,7 @@
 /*
 *
 * Madhav Datt
-* Program to prepare random numberlink/flow puzzle gameboards
+* Program to prepare random numberlink/flow puzzle gameboards using Disjoint set Data Structures
 *
 */
 
@@ -54,7 +54,7 @@ node* findset (node* x)
 	return x;
 }
 
-//function to merge two sets of nodes
+//function to merge two disjoint sets of nodes
 void setunion (node* x, node* y)
 {
 	node* set_x = findset (x);
@@ -112,6 +112,7 @@ bool addpath (node*** B, int n)
 {
 	int i, j, i1, j1, n_order, k, l, status, count;
 	
+	//adding a path with random empty starting coordinates
 	i = rand () % n;
 	j = rand () % n;
 	k = -1;
