@@ -515,7 +515,7 @@ bool addpath (node*** B, int n)
 	return 1;
 }
 
-//function to assign path values to filled blocks
+//function to assign path values (numbers) to filled blocks
 void addpathnum (node*** B, int n)
 {
 	int i, j, pathnum;
