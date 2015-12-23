@@ -1,5 +1,5 @@
 # Numberlink/Flow Gameboard Generator
-This C++ program creates a random game board for the popular app game **Numberlink**. 
+This C++ program creates a random game board for the popular puzzle game **Numberlink**. 
 
 ## About Numberlink
 
