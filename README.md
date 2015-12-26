@@ -20,7 +20,7 @@ The player has to pair up all the matching numbers on the grid with single conti
 
     $ make
     & ./numberlink
-Enter grid size
+Enter grid size (n)
 
 ## Using the program
 
