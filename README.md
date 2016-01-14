@@ -32,3 +32,5 @@ Enter grid size (n)
 ## Known Issues
 
 * Board print formatting is a bit off for 2-digit and above grid size values.
+
+*Please do report issues in case of a bug.*
